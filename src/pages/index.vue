@@ -22,14 +22,13 @@ export default {
 
 <style lang="scss" scoped>
   .container {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #333;
     max-width: 960px;
-    margin: 0 auto;
     min-height: 100vh;
+    margin: 0 auto;
     padding: 0 1rem;
-    box-shadow: 0 0 0.3rem rgba(#000, 0.25);
     background: #fff;
+    box-shadow: 0 0 0.3rem rgba(#000, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,8 +40,8 @@ export default {
     $base-transition: 0.3s ease;
     display: inline-block;
     border: 1px solid $nuxt-color;
-    padding: 0.5rem 2rem;
     color: $nuxt-color;
+    padding: 0.5rem 2rem;
     text-decoration: none;
     transition: #{$base-transition} background, #{$base-transition} color, #{$base-transition} box-shadow;
 
