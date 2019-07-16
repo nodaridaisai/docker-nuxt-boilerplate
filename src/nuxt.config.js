@@ -23,8 +23,8 @@ export default {
     ]
   },
   router: {
-    // TODO: 今年にする
-    base: '/2019/',
+    // TODO: '/2019/' のように、設定を今年にする
+    base: '/',
   },
   /*
   ** Customize the progress-bar color
