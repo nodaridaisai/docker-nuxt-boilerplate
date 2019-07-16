@@ -1,13 +1,13 @@
 <template>
-    <div class="container">
-      <h1>Docker Nuxt ボイラープレート</h1>
-      <p>by 野田地区理大祭</p>
-      <p>
-        <a href="https://ja.nuxtjs.org/" class="btn" target="_blank" rel="noopener noreferrer">
-          Nuxt.js 日本語ドキュメント
-        </a>
-      </p>
-    </div>
+  <div class="container">
+    <h1>Docker Nuxt ボイラープレート</h1>
+    <p>by 野田地区理大祭</p>
+    <p>
+      <a href="https://ja.nuxtjs.org/" class="btn" target="_blank" rel="noopener noreferrer">
+        Nuxt.js 日本語ドキュメント
+      </a>
+    </p>
+  </div>
 </template>
 
 <script>
