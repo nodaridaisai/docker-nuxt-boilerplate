@@ -2,6 +2,13 @@
 
 野田地区理大祭で使用している Nuxt.js 開発環境&ボイラープレートです。
 
+## 概要
+- Nuxt.js の開発環境がセットになっています
+- 開発には Docker を利用します
+- 各ページ head を簡単に作成するために `utils/makeHead` ユーティリティ関数を同梱しています
+- Bootstrap の機能のうち、Reboot と Grid のみ標準で import しています
+    - 必要に応じて import できますが、Reboot と Grid 以外は独自実装する前提です
+
 ## 必要なもの
 - (Git)
 - Node.js
