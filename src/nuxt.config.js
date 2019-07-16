@@ -34,6 +34,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/css/bootstrap.scss',
   ],
   /*
   ** Plugins to load before mounting the App
